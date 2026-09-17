@@ -9,6 +9,7 @@ a { color:var(--primary); }
 .app-main { min-width:0; background:#fff!important; }
 
 
+
 /* Sticky top navigation */
 .app-header { height:70px!important; padding:0 30px!important; display:flex; align-items:center; gap:24px; background:rgba(255,255,255,.94)!important; backdrop-filter:blur(8px); border-bottom:1px solid var(--border); line-height:normal; position:sticky; top:0; z-index:20; }
 .brand { display:flex; align-items:center; gap:12px; flex:0 0 auto; color:var(--heading); font-size:20px; font-weight:700; white-space:nowrap; text-decoration:none; }
