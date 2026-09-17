@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: ghcr.io/gratian-marta/learning-news-gratian-marta
+  repository: ghcr.io/gratian-marta/learning-news
   pullPolicy: IfNotPresent
   tag: "latest"
 imagePullSecrets:
