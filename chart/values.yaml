@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: ghcr.io/CC-Sebastian-Pop/learning-news
+  repository: ghcr.io/cc-sebastian-pop/learning-news
   pullPolicy: IfNotPresent
   tag: "latest"
 imagePullSecrets:
