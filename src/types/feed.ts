@@ -3,6 +3,9 @@
  * plain array of item ids (`/topstories.json`, `/newstories.json`, ...). These
  * keys are what appear in the URL (`/stories/top`), so they are part of the
  * app's public surface — the upstream file name stays an implementation detail.
+ * Each feed is represented by a key, a label, an endpoint, and a description.
+ * The key is used in the URL, the label is for display purposes, the endpoint
+ * corresponds to the Hacker News API, and the description provides context.
  */
 export const FEEDS = [
   { key: 'top', label: 'Top', endpoint: 'topstories', description: 'The current Hacker News front page.' },
